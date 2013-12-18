@@ -15,6 +15,7 @@
 
     {# we must add a trailing slash as the js code will concat the id which might not start with / #}
     var cmfCreatePutDocument = '{{ path('cmf_create_put_document_base') }}/';
+    var cmfCreateWorkflows = '{{ path('cmf_create_workflows_base') }}/';
     var cmfCreateStanbolUrl = '{{ cmfCreateStanbolUrl }}';
 
     var cmfCreatePlainTextTypes = {{ cmfCreatePlainTextTypes|raw }};
@@ -26,7 +27,7 @@
     '@CmfCreateBundle/Resources/public/vendor/create/lib/underscore/underscore.js'
     '@CmfCreateBundle/Resources/public/vendor/create/lib/backbone/backbone.js'
     '@CmfCreateBundle/Resources/public/vendor/create/lib/rangy/rangy-core.js'
-    '@CmfCreateBundle/Resources/public/vendor/create/lib/view/vie.js'
+    '@CmfCreateBundle/Resources/public/vendor/create/lib/vie/vie.js'
     '@CmfCreateBundle/Resources/public/vendor/create/lib/jquery-rdfquery/jquery.rdfquery.core.js'
     '@CmfCreateBundle/Resources/public/vendor/create/lib/jquery-rdfquery/jquery.rdfquery.rules.js'
     '@CmfCreateBundle/Resources/public/vendor/create/lib/jquery.tagsinput/jquery.tagsinput.js'

@@ -64,6 +64,7 @@ class Configuration implements ConfigurationInterface
                                         ->scalarNode('basepath')->defaultValue('/cms/media')->end()
                                     ->end()
                                 ->end()
+                                ->booleanNode('delete')->defaultValue(false)->end()
                             ->end()
                         ->end()
                     ->end()
