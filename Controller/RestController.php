@@ -163,7 +163,7 @@ class RestController
 
         return $this->viewHandler->handle($view, $request);
     }
-    
+
     /**
      * Check if the action can be performed
      *
